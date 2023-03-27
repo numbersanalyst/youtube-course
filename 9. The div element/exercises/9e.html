@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter text box</title>
+    <style>
+        .publishing-field {
+            border-radius: 5px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+            width: 450px;
+            padding: 12px;
+        }
+
+        .user-avatar,
+        .post-bar,
+        .tweet-btn {
+            vertical-align: middle;
+        }
+
+        .user-avatar {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: left;
+            border-radius: 50px;
+            margin-right: 5px;
+        }
+
+        .post-bar {
+            font-size: 18px;
+            width: 300px;
+            border: none;
+        }
+
+        .post-bar:focus {
+            outline: 0px;
+        }
+
+        .tweet-btn {
+            background-color: rgb(2, 158, 255);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 16px;
+            transition: box-shadow 0.15s;
+        }
+
+        .tweet-btn:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="publishing-field">
+        <img class="user-avatar" src="fox.jpg" alt="avatar" />
+        <input class="post-bar" type="text" placeholder="What's happening?" />
+        <button class="tweet-btn">Tweet</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    height: 3000px;
+    font-family: Arial;
+}
+
+.container {
+    background-color: gray;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 320px;
+    height: 180px;
+}
+
+.close-btn {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 8px 12px;
+    border-radius: 24px;
+}
+
+.time {
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 2px 6px;
+}

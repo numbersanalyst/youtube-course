@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="header">
+  <header>
     <div class="left-section">
       <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu">
       <img class="youtube-logo" src="icons/youtube-logo.svg" alt="logo">
@@ -24,10 +24,12 @@
 
     <div class="middle-section">
       <input class="search-bar" type="text" placeholder="Search" />
+
       <button class="search-btn">
         <img class="search-icon" src="icons/search.svg" alt="search">
         <div class="tooltip">Search</div>
       </button>
+
       <button class="search-voice-btn">
         <img class="search-voice-icon" src="icons/voice-search-icon.svg" alt="search with voice">
         <div class="tooltip">Search with your voice</div>
@@ -50,9 +52,9 @@
       </div>
       <img class="current-user-picture" src="channel-pictures/my_channel.jpeg" alt="your avatar">
     </div>
-  </div>
+  </header>
 
-  <div class="sidebar">
+  <nav class="sidebar">
     <div class="sidebar-link">
       <img src="icons/home.svg">
       <div>Home</div>
@@ -82,207 +84,209 @@
       <img src="icons/library.svg">
       <div>Library</div>
     </div>
-  </div>
+  </nav>
 
-  <div class="video-grid">
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="video thumbnail" />
-        </a>
-        <div class="video-time">14:20</div>
-      </div>
-      <div class="video-info-grid">
-        <div>
-          <a class="link" href="https://www.youtube.com/c/mkbhd">
-            <div class="profile-picture-container">
-              <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="profile picture">
-              <div class="channel-tooltip">
-                <div class="channel-tooltip-left">
-                  <img class="channel-tooltip-picture" src="channel-pictures/channel-1.jpeg" alt="profile picture">
-                </div>
-                <div class="channel-tooltip-right">
-                  <p class="channel-tooltip-author">Marques Brownlee</p>
-                  <p class="channel-tooltip-subscribes">15M subscribers</p>
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="video thumbnail" />
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div>
+            <a class="link" href="https://www.youtube.com/c/mkbhd">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="profile picture">
+                <div class="channel-tooltip">
+                  <div class="channel-tooltip-left">
+                    <img class="channel-tooltip-picture" src="channel-pictures/channel-1.jpeg" alt="profile picture">
+                  </div>
+                  <div class="channel-tooltip-right">
+                    <p class="channel-tooltip-author">Marques Brownlee</p>
+                    <p class="channel-tooltip-subscribes">15M subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">Talking Tech
-              and AI with Google CEO Sundar Pichai!</a></p>
-          <p class="video-author"><a class="link" href="https://www.youtube.com/c/mkbhd">Marques Brownlee</a></p>
-          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </a>
+          </div>
+          <div>
+            <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">Talking Tech
+                and AI with Google CEO Sundar Pichai!</a></p>
+            <p class="video-author"><a class="link" href="https://www.youtube.com/c/mkbhd">Marques Brownlee</a></p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="video thumbnail" />
-        </a>
-        <div class="video-time">8:22</div>
-      </div>
-      <div class="video-info-grid">
-        <div>
-          <a class="link" href="https://www.youtube.com/c/markiplier">
-            <div class="profile-picture-container">
-              <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="profile picture">
-              <div class="channel-tooltip">
-                <div class="channel-tooltip-left">
-                  <img class="channel-tooltip-picture" src="channel-pictures/channel-2.jpeg" alt="profile picture">
-                </div>
-                <div class="channel-tooltip-right">
-                  <p class="channel-tooltip-author">Markiplier</p>
-                  <p class="channel-tooltip-subscribes">28M subscribers</p>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="video thumbnail" />
+          </a>
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div>
+            <a class="link" href="https://www.youtube.com/c/markiplier">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg" alt="profile picture">
+                <div class="channel-tooltip">
+                  <div class="channel-tooltip-left">
+                    <img class="channel-tooltip-picture" src="channel-pictures/channel-2.jpeg" alt="profile picture">
+                  </div>
+                  <div class="channel-tooltip-right">
+                    <p class="channel-tooltip-author">Markiplier</p>
+                    <p class="channel-tooltip-subscribes">28M subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">Try Not To
-              Laugh Challenge #9</a></p>
-          <p class="video-author"><a class="link" href="https://www.youtube.com/c/markiplier">Markiplier</a></p>
-          <p class="video-stats">19M views &#183; 4 years ago</p>
+            </a>
+          </div>
+          <div>
+            <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">Try Not To
+                Laugh Challenge #9</a></p>
+            <p class="video-author"><a class="link" href="https://www.youtube.com/c/markiplier">Markiplier</a></p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w     ">
-          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="video thumbnail" />
-        </a>
-        <div class="video-time">9:13</div>
-      </div>
-      <div class="video-info-grid">
-        <div>
-          <a class="link" href="https://www.youtube.com/c/sssniperwolf">
-            <div class="profile-picture-container">
-              <img class="profile-picture" src="channel-pictures/channel-3.jpeg" alt="profile picture">
-              <div class="channel-tooltip">
-                <div class="channel-tooltip-left">
-                  <img class="channel-tooltip-picture" src="channel-pictures/channel-3.jpeg" alt="profile picture">
-                </div>
-                <div class="channel-tooltip-right">
-                  <p class="channel-tooltip-author">SSSniperWolf</p>
-                  <p class="channel-tooltip-subscribes">30M subscribers</p>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w     ">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="video thumbnail" />
+          </a>
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div>
+            <a class="link" href="https://www.youtube.com/c/sssniperwolf">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpeg" alt="profile picture">
+                <div class="channel-tooltip">
+                  <div class="channel-tooltip-left">
+                    <img class="channel-tooltip-picture" src="channel-pictures/channel-3.jpeg" alt="profile picture">
+                  </div>
+                  <div class="channel-tooltip-right">
+                    <p class="channel-tooltip-author">SSSniperWolf</p>
+                    <p class="channel-tooltip-subscribes">30M subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">Crazy Tik Toks
-              Taken Moments Before DISASTER</a></p>
-          <p class="video-author"><a class="link" href="https://www.youtube.com/c/sssniperwolf">SSSniperWolf</a></p>
-          <p class="video-stats">12M views &#183; 1 year ago</p>
+            </a>
+          </div>
+          <div>
+            <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">Crazy Tik Toks
+                Taken Moments Before DISASTER</a></p>
+            <p class="video-author"><a class="link" href="https://www.youtube.com/c/sssniperwolf">SSSniperWolf</a></p>
+            <p class="video-stats">12M views &#183; 1 year ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
-          <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="video thumbnail" />
-        </a>
-        <div class="video-time">22:09</div>
-      </div>
-      <div class="video-info-grid">
-        <div>
-          <a class="link" href="https://www.youtube.com/c/veritasium">
-            <div class="profile-picture-container">
-              <img class="profile-picture" src="channel-pictures/channel-4.jpeg" alt="profile picture">
-              <div class="channel-tooltip">
-                <div class="channel-tooltip-left">
-                  <img class="channel-tooltip-picture" src="channel-pictures/channel-4.jpeg" alt="profile picture">
-                </div>
-                <div class="channel-tooltip-right">
-                  <p class="channel-tooltip-author">Veritasium</p>
-                  <p class="channel-tooltip-subscribes">8M subscribers</p>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="video thumbnail" />
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div>
+            <a class="link" href="https://www.youtube.com/c/veritasium">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg" alt="profile picture">
+                <div class="channel-tooltip">
+                  <div class="channel-tooltip-left">
+                    <img class="channel-tooltip-picture" src="channel-pictures/channel-4.jpeg" alt="profile picture">
+                  </div>
+                  <div class="channel-tooltip-right">
+                    <p class="channel-tooltip-author">Veritasium</p>
+                    <p class="channel-tooltip-subscribes">8M subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=094y1Z2wpJg">The Simplest
-              Math Problem No One Can Solve - Collatz Conjecture</a></p>
-          <p class="video-author"><a class="link" href="https://www.youtube.com/c/veritasium">Veritasium</a></p>
-          <p class="video-stats">18M views &#183; 4 months ago</p>
+            </a>
+          </div>
+          <div>
+            <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=094y1Z2wpJg">The Simplest
+                Math Problem No One Can Solve - Collatz Conjecture</a></p>
+            <p class="video-author"><a class="link" href="https://www.youtube.com/c/veritasium">Veritasium</a></p>
+            <p class="video-stats">18M views &#183; 4 months ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
-          <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="video thumbnail" />
-        </a>
-        <div class="video-time">11:17</div>
-      </div>
-      <div class="video-info-grid">
-        <div>
-          <a class="link" href="https://www.youtube.com/c/CSDojo">
-            <div class="profile-picture-container">
-              <img class="profile-picture" src="channel-pictures/channel-5.jpeg" alt="profile picture">
-              <div class="channel-tooltip">
-                <div class="channel-tooltip-left">
-                  <img class="channel-tooltip-picture" src="channel-pictures/channel-5.jpeg" alt="profile picture">
-                </div>
-                <div class="channel-tooltip-right">
-                  <p class="channel-tooltip-author">CS Dojo</p>
-                  <p class="channel-tooltip-subscribes">10K subscribers</p>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="video thumbnail" />
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div>
+            <a class="link" href="https://www.youtube.com/c/CSDojo">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpeg" alt="profile picture">
+                <div class="channel-tooltip">
+                  <div class="channel-tooltip-left">
+                    <img class="channel-tooltip-picture" src="channel-pictures/channel-5.jpeg" alt="profile picture">
+                  </div>
+                  <div class="channel-tooltip-right">
+                    <p class="channel-tooltip-author">CS Dojo</p>
+                    <p class="channel-tooltip-subscribes">10K subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=86CQq3pKSUw">Kadane's
-              Algorithm to Maximum Sum Subarray Problem</a></p>
-          <p class="video-author"><a class="link" href="https://www.youtube.com/c/CSDojo">CS Dojo</a></p>
-          <p class="video-stats">519K views &#183; 5 years ago</p>
+            </a>
+          </div>
+          <div>
+            <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=86CQq3pKSUw">Kadane's
+                Algorithm to Maximum Sum Subarray Problem</a></p>
+            <p class="video-author"><a class="link" href="https://www.youtube.com/c/CSDojo">CS Dojo</a></p>
+            <p class="video-stats">519K views &#183; 5 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
-          <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="video thumbnail" />
-        </a>
-        <div class="video-time">11:17</div>
-      </div>
-      <div class="video-info-grid">
-        <div>
-          <a class="link" href="https://www.youtube.com/@MrBeast">
-            <div class="profile-picture-container">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg" alt="profile picture">
-              <div class="channel-tooltip">
-                <div class="channel-tooltip-left">
-                  <img class="channel-tooltip-picture" src="channel-pictures/channel-6.jpeg" alt="profile picture">
-                </div>
-                <div class="channel-tooltip-right">
-                  <p class="channel-tooltip-author">MrBeast</p>
-                  <p class="channel-tooltip-subscribes">4,6M subscribers</p>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="video thumbnail" />
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div>
+            <a class="link" href="https://www.youtube.com/@MrBeast">
+              <div class="profile-picture-container">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg" alt="profile picture">
+                <div class="channel-tooltip">
+                  <div class="channel-tooltip-left">
+                    <img class="channel-tooltip-picture" src="channel-pictures/channel-6.jpeg" alt="profile picture">
+                  </div>
+                  <div class="channel-tooltip-right">
+                    <p class="channel-tooltip-author">MrBeast</p>
+                    <p class="channel-tooltip-subscribes">4,6M subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div>
-          <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">Anything You
-              Can Fit In The Circle I’ll Pay For</a></p>
-          <p class="video-author"><a class="link" href="https://www.youtube.com/@MrBeast">MrBeast</a></p>
-          <p class="video-stats">141M views &#183; 1 year ago</p>
+            </a>
+          </div>
+          <div>
+            <p class="video-title"><a class="link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">Anything You
+                Can Fit In The Circle I’ll Pay For</a></p>
+            <p class="video-author"><a class="link" href="https://www.youtube.com/@MrBeast">MrBeast</a></p>
+            <p class="video-stats">141M views &#183; 1 year ago</p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 </body>
 
 </html>

@@ -11,6 +11,6 @@ I added additionaly tooltip for channels.
 I created a reponsive design depending on current screen width.
 
 ## I did it through this course
-[HTML&CSS course on youtube](https://www.youtube.com/watch?v=G3e-cpL7ofc)
+[![HTML&CSS course on youtube](thumbnail.jpg)](https://www.youtube.com/watch?v=G3e-cpL7ofc)
 
 Photos and many icons are from Google ©2022

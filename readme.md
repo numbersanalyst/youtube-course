@@ -16,4 +16,4 @@ I created a reponsive design depending on current screen width.
 ## I did it through this course
 
 ### [![HTML&CSS course on youtube](readme-pictures/thumbnail.jpg)](https://www.youtube.com/watch?v=G3e-cpL7ofc)
-Photos and many icons are from Google ©2022
+> Photos and many icons are from Google ©2022
